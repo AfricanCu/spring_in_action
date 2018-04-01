@@ -9,12 +9,11 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class SgtPeppers implements CompactDisc {
-	private String title = "Sgt. Peper's Lonely Hearts Club Band";
-	private String artist = "The Beatles";
+	private String title = "命运交响曲";
+	private String artist = "贝多芬";
 
 	@Override
 	public void play() {
-		System.out.println("Playing " + title + " by " + artist);
+		System.out.println(artist + " 演奏 " + title);
 	}
-
 }
